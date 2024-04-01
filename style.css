@@ -1,0 +1,22 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px;
+} body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(#bcbc62, #82752e) no-repeat;
+} h1 {
+    margin: 0;
+} button {
+    transition: 50ms;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin: 3;
+    background: #82752e;
+} button:hover {
+    background: #c5b55a;
+    scale: 105%;
+} button:active {
+    background: #e9d877;
+    scale: 110%;
+}
